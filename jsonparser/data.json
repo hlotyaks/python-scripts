@@ -1,0 +1,13 @@
+{
+    "dependencies" :
+    [
+        {
+            "repo" : "repo1",
+            "id" : "id1"
+        },
+        {
+            "repo" : "repo2",
+            "id" : "id2"
+        } 
+    ]
+}
