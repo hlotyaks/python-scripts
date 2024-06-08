@@ -10,7 +10,18 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args": ["--file", "C:\\Users\\hloty\\repos\\python-scripts\\jsonparser\\data.json", "--verbosity", "1"]
+            "args": ["--file", "C:\\Users\\hloty\\source\\repos\\python-scripts\\jsonparser\\data.json", "--verbosity", "1"]
+        },
+        {
+            "name": "Python: Run Tests",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "unittest",
+            "args": [
+                "-v",
+                "test_jpar"
+            ],
+            "console": "integratedTerminal"
         }
     ]
 }
