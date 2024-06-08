@@ -3,11 +3,17 @@
     [
         {
             "repo" : "repo1",
-            "id" : "id1"
+            "id" : "id1",
+            "version" : "1.0.0"
         },
         {
             "repo" : "repo2",
-            "id" : "id2"
+            "id" : "id2",
+            "version" : "2.0.0",
+            "paths" : [
+                "a/b/c",
+                "d/e/f"
+            ]
         } 
     ]
 }
